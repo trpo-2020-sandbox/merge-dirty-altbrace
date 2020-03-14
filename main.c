@@ -32,17 +32,9 @@ int main()
 
     const int min = min_element(arr, N_ELEMENTS(arr));
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    printf("Minimum element: %d\n", min);
-=======
     print_array(arr, N_ELEMENTS(arr));
     printf("Minimum element: %d\n", min);
->>>>>>> develop
-=======
-    print_array(arr, N_ELEMENTS(arr));
-    printf("Minimum element: %d\n", min);
->>>>>>> develop
+
 
     return 0;
 }
